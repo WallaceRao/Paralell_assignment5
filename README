@@ -1,0 +1,16 @@
+
+   Count How many integer point in a Hyper Sphere via CUDA
+
+   159735 Parallel Programming Assignment 5
+
+   To compile: nvcc -o hyperSpace hyperSpace.cu
+   To run: ./hyperSpace [nTrails]
+   nTrails is 20 by default
+   For example:
+   "./hyperSpace 50" will generate a hyper sphere for 50 times,
+   and count the number of integer coordinate points inside every sphere,
+   by both cuda algorithm and sequential algorithm.
+
+   Any question, contact raoyonghiu0630@gmail.com
+   
+
